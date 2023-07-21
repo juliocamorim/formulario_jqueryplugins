@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+h2 {
+    font-size: 25px;
+    padding-top: 36px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+form {
+    padding-top: 24px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.campo-formulario {
+    margin-bottom: 16px;
+}
+
+.campo-formulario input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.campo-formulario label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+button {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(3, 158, 3);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+input.error {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: #fdd;
+}
+
+label.error {
+    color: red;
+    font-weight: bold;
+}
